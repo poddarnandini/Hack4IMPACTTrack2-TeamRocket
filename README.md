@@ -62,7 +62,8 @@ NutriLens is an end-to-end AI pipeline that allows users to:
 │   ├── 02_depth_estimation.ipynb   # MiDaS depth estimation
 │   └── 03_barcode_scanner.py       # Barcode + Open Food Facts
 ├── saved_models/
-│   └── labels.json                 # Food category labels
+│   ├── food_classifier.h5          # Trained EfficientNetB1 model
+│   └── labels.json                 # Food category labels             # Food category labels
 ├── test_images/
 │   ├── sample1.jpg
 │   └── sample2.jpg
